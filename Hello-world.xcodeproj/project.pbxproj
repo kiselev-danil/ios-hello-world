@@ -12,6 +12,8 @@
 		840797792B0609550087865E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840797782B0609550087865E /* Assets.xcassets */; };
 		8407977D2B0609550087865E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8407977C2B0609550087865E /* Preview Assets.xcassets */; };
 		846F2C0A2B064527007695B3 /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F2C092B064527007695B3 /* DoctorCard.swift */; };
+		846F2C0C2B0652ED007695B3 /* DoctorNotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F2C0B2B0652ED007695B3 /* DoctorNotif.swift */; };
+		846F2C0E2B065343007695B3 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F2C0D2B065343007695B3 /* ProfileImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8407977A2B0609550087865E /* Hello_world.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hello_world.entitlements; sourceTree = "<group>"; };
 		8407977C2B0609550087865E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		846F2C092B064527007695B3 /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		846F2C0B2B0652ED007695B3 /* DoctorNotif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNotif.swift; sourceTree = "<group>"; };
+		846F2C0D2B065343007695B3 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8407977A2B0609550087865E /* Hello_world.entitlements */,
 				8407977B2B0609550087865E /* Preview Content */,
 				846F2C092B064527007695B3 /* DoctorCard.swift */,
+				846F2C0B2B0652ED007695B3 /* DoctorNotif.swift */,
+				846F2C0D2B065343007695B3 /* ProfileImage.swift */,
 			);
 			path = "Hello-world";
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				840797772B0609520087865E /* ContentView.swift in Sources */,
+				846F2C0C2B0652ED007695B3 /* DoctorNotif.swift in Sources */,
 				846F2C0A2B064527007695B3 /* DoctorCard.swift in Sources */,
+				846F2C0E2B065343007695B3 /* ProfileImage.swift in Sources */,
 				840797752B0609520087865E /* Hello_worldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

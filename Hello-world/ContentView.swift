@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    var appPadding : CGFloat = 24
     var body: some View {
             VStack {
                 HStack {
@@ -23,8 +24,8 @@ struct ContentView: View {
                     }
                     Spacer()
                     ProfileImage()
-                }.padding(.leading, 24)
-                 .padding(.trailing, 24)
+                }.padding(.leading, appPadding)
+                 .padding(.trailing, appPadding)
                 DoctorNotif()
             }
         }

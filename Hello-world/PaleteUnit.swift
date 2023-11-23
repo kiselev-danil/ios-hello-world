@@ -3,7 +3,7 @@ import SwiftUI
 
 struct PaleteUnit: View {
     var paleteImage = "link"
-    var paleteText = "placeholder"
+    var paleteText = "Covid 19"
     var imageHeight : CGFloat = 24
     var imageWidth : CGFloat = 24
     var body: some View {

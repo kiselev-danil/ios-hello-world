@@ -2,6 +2,7 @@ import Foundation
 import SwiftUI
 
 struct DoctorProfile: View {
+    var doctorImage = "doctor photo"
     var doctorName = "Dr. Place Holder"
     var doctorSpeciality = "General Doctor"
     var nameFont: Font = Font.custom("Poppins", size: 16).weight(.bold)
@@ -10,7 +11,7 @@ struct DoctorProfile: View {
     var specialityFont: Font = Font.custom("Poppins", size: 14)
     var body: some View {
         HStack{
-            Image("doctor photo").resizable().aspectRatio(contentMode:.fit).frame(width: 48).background(Color.white).clipShape(Circle())
+            Image(doctorImage).resizable().aspectRatio(contentMode:.fit).frame(width: 48).background(Color.white).clipShape(Circle())
             Spacer().frame(width: 12)
             VStack(alignment: .leading, spacing: 16) {
                 Text(doctorName).font(
@@ -22,6 +23,7 @@ struct DoctorProfile: View {
                     .foregroundColor(specialityFontColor)
             }
         }
+        .frame(height: 48)
     }
 }
 

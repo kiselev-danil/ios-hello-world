@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var appPadding : CGFloat = 24
     var body: some View {
-        ScrollView{
+        ScrollView {
             VStack {
                 HeaderView()
                     .padding(.leading, 24)
@@ -22,20 +22,23 @@ struct ContentView: View {
                 Spacer().frame(height: 24)
                 ThemesPalete(minPaleteSpace: 13, maxPaleteSpace: 100)
                 Spacer().frame(height: 32)
-                Text("Near Doctor")
-                    .foregroundColor(Color("primaryFontColor"))
+                HStack{
+                    Text("Near Doctor").font(Font.custom("Poppins", size: 16).weight(.semibold))
+                        .foregroundColor(Color("primaryFontColor"))
+                        Spacer()
+                }
                 DoctorCards()
             }
             .padding(24)
         }
         
     }
-        
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().background(Color(.white))
     }
-        
+    
 }

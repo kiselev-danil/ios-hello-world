@@ -3,10 +3,12 @@ import SwiftUI
 
 struct DoctorCards: View {
     var body: some View {
-        VStack{
-            DoctorProfile()
+        VStack {
+            DoctorCard(doctorImage: "doctor photo 2", doctorName: "Dr. Joseph Brosito")
+            Spacer().frame(height: 12)
+            DoctorCard(doctorImage: "doctor photo")
         }
-        .background(Color("search_bar_background"))
+        
     }
 }
 

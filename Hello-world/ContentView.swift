@@ -10,18 +10,32 @@ import SwiftUI
 struct ContentView: View {
     var appPadding : CGFloat = 24
     var body: some View {
+        ScrollView{
             VStack {
                 HeaderView()
                     .padding(.leading, 24)
                     .padding(.trailing, 24)
                 Spacer().frame(height: 32)
-                DoctorNotif()
+                DoctorNotification()
+                Spacer().frame(height: 20)
+                SearchBar(searchBarText: "Search doctor or health issue")
+                Spacer().frame(height: 24)
+                ThemesPalete(minPaleteSpace: 13, maxPaleteSpace: 100)
+                Spacer().frame(height: 32)
+                Text("Near Doctor")
+                    .foregroundColor(Color("primaryFontColor"))
+                DoctorCards()
             }
+            .padding(24)
         }
+        
+    }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().background(Color(.white))
     }
+        
 }

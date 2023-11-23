@@ -14,12 +14,12 @@ struct HeaderView: View {
             VStack(alignment: .leading) {
                 Text("Hello,")
                     .font(Font.custom("Poppins", size: 16))
-                    .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
+                    .foregroundColor(Color("secondaryFontColor"))
                 Text("Hi James").font(
                     Font.custom("Poppins", size: 20)
                         .weight(.bold)
                 )
-                .foregroundColor(Color(red: 0.05, green: 0.11, blue: 0.2))
+                .foregroundColor(Color("primaryFontColor"))
             }
             Spacer()
             ProfileImage()

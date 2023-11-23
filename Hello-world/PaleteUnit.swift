@@ -13,8 +13,10 @@ struct PaleteUnit: View {
                 .background(Color("search_bar_background"))
                 .cornerRadius(100)
             Spacer().frame(height: 8)
-            Text(paleteText).foregroundColor(Color("secondaryFontColor"))
+            Text(paleteText)
+                .font(Font.custom("Poppins",size:15)).foregroundColor(Color("secondaryFontColor"))
         }
+        .frame(minWidth: 72)
     }
 }
 

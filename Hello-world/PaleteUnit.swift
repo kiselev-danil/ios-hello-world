@@ -16,7 +16,7 @@ struct PaleteUnit: View {
             Text(paleteText)
                 .font(Font.custom("Poppins",size:15)).foregroundColor(Color("secondaryFontColor"))
         }
-        .frame(minWidth: 72)
+        .frame(minWidth: (imageWidth * 3))
     }
 }
 

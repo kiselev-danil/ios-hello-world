@@ -11,7 +11,15 @@
 		840797772B0609520087865E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840797762B0609520087865E /* ContentView.swift */; };
 		840797792B0609550087865E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840797782B0609550087865E /* Assets.xcassets */; };
 		8407977D2B0609550087865E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8407977C2B0609550087865E /* Preview Assets.xcassets */; };
+		842805BE2B08E31E0046A16E /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842805BD2B08E31E0046A16E /* Header.swift */; };
 		846F2C0A2B064527007695B3 /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F2C092B064527007695B3 /* DoctorCard.swift */; };
+		846F2C0C2B0652ED007695B3 /* DoctorNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F2C0B2B0652ED007695B3 /* DoctorNotification.swift */; };
+		846F2C0E2B065343007695B3 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F2C0D2B065343007695B3 /* ProfileImage.swift */; };
+		84F950022B0F2A5700373906 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F950012B0F2A5700373906 /* SearchBar.swift */; };
+		84F950042B0F35CB00373906 /* ThemesPalete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F950032B0F35CB00373906 /* ThemesPalete.swift */; };
+		84F950062B0F377800373906 /* PaleteUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F950052B0F377800373906 /* PaleteUnit.swift */; };
+		84F950082B0F3C6100373906 /* DoctorCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F950072B0F3C6100373906 /* DoctorCards.swift */; };
+		84F9500A2B0F3D3100373906 /* DoctorProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F950092B0F3D3100373906 /* DoctorProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +29,15 @@
 		840797782B0609550087865E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8407977A2B0609550087865E /* Hello_world.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hello_world.entitlements; sourceTree = "<group>"; };
 		8407977C2B0609550087865E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		842805BD2B08E31E0046A16E /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		846F2C092B064527007695B3 /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		846F2C0B2B0652ED007695B3 /* DoctorNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNotification.swift; sourceTree = "<group>"; };
+		846F2C0D2B065343007695B3 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		84F950012B0F2A5700373906 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		84F950032B0F35CB00373906 /* ThemesPalete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesPalete.swift; sourceTree = "<group>"; };
+		84F950052B0F377800373906 /* PaleteUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaleteUnit.swift; sourceTree = "<group>"; };
+		84F950072B0F3C6100373906 /* DoctorCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCards.swift; sourceTree = "<group>"; };
+		84F950092B0F3D3100373906 /* DoctorProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +75,7 @@
 				840797782B0609550087865E /* Assets.xcassets */,
 				8407977A2B0609550087865E /* Hello_world.entitlements */,
 				8407977B2B0609550087865E /* Preview Content */,
-				846F2C092B064527007695B3 /* DoctorCard.swift */,
+				840986EB2B0FAE240026C1AA /* UI */,
 			);
 			path = "Hello-world";
 			sourceTree = "<group>";
@@ -70,6 +86,38 @@
 				8407977C2B0609550087865E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		840986E92B0FADB00026C1AA /* Paletes */ = {
+			isa = PBXGroup;
+			children = (
+				84F950032B0F35CB00373906 /* ThemesPalete.swift */,
+				84F950052B0F377800373906 /* PaleteUnit.swift */,
+			);
+			path = Paletes;
+			sourceTree = "<group>";
+		};
+		840986EA2B0FADED0026C1AA /* DoctorCard */ = {
+			isa = PBXGroup;
+			children = (
+				846F2C0B2B0652ED007695B3 /* DoctorNotification.swift */,
+				846F2C092B064527007695B3 /* DoctorCard.swift */,
+				84F950072B0F3C6100373906 /* DoctorCards.swift */,
+				84F950092B0F3D3100373906 /* DoctorProfile.swift */,
+			);
+			path = DoctorCard;
+			sourceTree = "<group>";
+		};
+		840986EB2B0FAE240026C1AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				840986EA2B0FADED0026C1AA /* DoctorCard */,
+				840986E92B0FADB00026C1AA /* Paletes */,
+				84F950012B0F2A5700373906 /* SearchBar.swift */,
+				842805BD2B08E31E0046A16E /* Header.swift */,
+				846F2C0D2B065343007695B3 /* ProfileImage.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F950082B0F3C6100373906 /* DoctorCards.swift in Sources */,
+				84F950022B0F2A5700373906 /* SearchBar.swift in Sources */,
 				840797772B0609520087865E /* ContentView.swift in Sources */,
+				84F9500A2B0F3D3100373906 /* DoctorProfile.swift in Sources */,
+				846F2C0C2B0652ED007695B3 /* DoctorNotification.swift in Sources */,
+				84F950062B0F377800373906 /* PaleteUnit.swift in Sources */,
 				846F2C0A2B064527007695B3 /* DoctorCard.swift in Sources */,
+				846F2C0E2B065343007695B3 /* ProfileImage.swift in Sources */,
+				842805BE2B08E31E0046A16E /* Header.swift in Sources */,
+				84F950042B0F35CB00373906 /* ThemesPalete.swift in Sources */,
 				840797752B0609520087865E /* Hello_worldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hello-world/Preview Content\"";
-				DEVELOPMENT_TEAM = LD5S4TY7PP;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -307,7 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hello-world/Preview Content\"";
-				DEVELOPMENT_TEAM = LD5S4TY7PP;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
